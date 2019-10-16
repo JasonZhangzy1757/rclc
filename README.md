@@ -17,7 +17,9 @@ Leaderboards are published here on GitHub to track _state-of-the-art_ (SOTA) pro
 The first challenge is to identify the datasets used in research
 publications, initially focused on the problem of 
 [_entity linking_](https://nlpprogress.com/english/entity_linking.html).
-Research papers will generally mention the datasets they've used, although there are no formal means to describe that metadata in a machine-readable way.
+Research papers generally mention the datasets they've used, although there are no formal means to describe that metadata in a machine-readable way.
+The goal here is to predict a set of dataset IDs for each publication.
+The dataset IDs within the corpus represent the set of all possible datasets which will appear.
 
 Identifying dataset mentions typically requires:
 
