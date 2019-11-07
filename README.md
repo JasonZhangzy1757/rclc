@@ -32,9 +32,10 @@ See [_Evaluating Models for Entity Linking with Datasets_](https://github.com/Co
 
 ### Current SOTA
 
-|  source | precision  | repo | corpus | date | contact |
-| ------- | :----:| :----: | :----: | ---------- | :-----------: |
-| [LARC](https://github.com/LARC-CMU-SMU) | 78.36 | [link]( https://github.com/LARC-CMU-SMU/rclc_2019_baseline) | [v0.1.5](https://github.com/Coleridge-Initiative/rclc/releases/tag/v0.1.5) | 2019-09-26 | [@philipskokoh](https://github.com/philipskokoh) |
+|  source | precision | entry | code | paper | corpus | submitted | contact | notes |
+| ----- | :--: | :----: | :----: | :----: | :----------: | ---------- | ----------- |
+| [LARC](https://github.com/LARC-CMU-SMU) | 0.7836 | [ipynb](https://github.com/LARC-CMU-SMU/rclc_2019_baseline/blob/master/src/rclc_2019_entity_indicative_naive_bayes_baseline.ipynb) | [repo]( https://github.com/LARC-CMU-SMU/rclc_2019_baseline) | [RCC_1](https://github.com/LARC-CMU-SMU/coleridge-rich-context-larc) | [v0.1.5](https://github.com/Coleridge-Initiative/rclc/releases/tag/v0.1.5) | 2019-09-26 | [@philipskokoh](https://github.com/philipskokoh) | RCLC baseline experiment |
+| [KAIST](https://www.kaist.ac.kr/html/en/index.html) | 0.6319 | [ipynb](https://github.com/HaritzPuerto/rclc_2019_baseline/blob/master/project/RCLC.ipynb) | [repo](https://github.com/HaritzPuerto/rclc_2019_baseline) | [RCC_1](https://coleridgeinitiative.org/assets/docs/RCC/kaist.pptx) | [v0.1.5](https://github.com/Coleridge-Initiative/rclc/releases/tag/v0.1.5) | 2019-11-01 | [@HaritzPuerto](https://github.com/HaritzPuerto) | model trained a different dataset using [DocumentQA](https://github.com/allenai/document-qa) and [Ultra-Fine Entity Typing](https://github.com/uwnlp/open_type) -- NB: this approach is able to identify new datasets |
 
 ---
 
