@@ -53,3 +53,35 @@ further the cause for effective, reproducible research.
 We're hosting this competition to focus on the research challenges of specific machine learning use cases encountered within Rich Context – see the [_Workflow Stages_](https://github.com/Coleridge-Initiative/rclc/wiki/Workflow-Stages) section. 
 
 If you have any questions about the Rich Context leaderboard competition – and especially if you identify any problems in the corpus (e.g., data quality, incorrect metadata, broken links, etc.) – please use the GitHub issues for this repo and pull requests to report, discuss, and resolve them.
+
+
+## Downloading, Parsing and Storing Resource Files
+1. Download PDFs from corpus
+2. Parse PDFs to text, stored as JSON
+3. Store PDFs and JSON files in S3 bucket
+
+### 1. Downloading PDFs from Corpus
+Run `python download_corpus_resources.py`. PDFs will be downloaded into `rclc/resources/pubs/pdf`.
+
+### 2. Parse PDFs using Science-Parse
+Install the science-parse CLI from https://github.com/allenai/science-parse
+
+Create subfolder `rclc/resources/pubs/json` and run from terminal:
+
+`java -jar /Users/sophierand/science-parse/cli/target/scala-2.12/science-parse-cli-assembly-3.0.1.jar -o /Users/sophierand/rclc/resources/pubs/json /Users/sophierand/rclc/resources/pubs/pdf`
+
+### 3. Store PDFs and JSON files
+Run `python upload_s3.py` to upload files to S3 bucket.
+
+The directory structure of our S3 bucket follows the directory structure in this branch.
+
+Bucket name: `richcontext`
+
+- richcontext
+  - corpus_docs
+    - pdf
+    - json
+
+
+## Downloading Parsed PDFs
+`download_s3.py` provides example code for downloading files from the S3 bucket.
