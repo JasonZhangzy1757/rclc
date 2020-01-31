@@ -1,0 +1,2280 @@
+[
+    {
+        "section_title": "trajGANs: Using generative adversarial networks for geo-privacy protection of trajectory data (Vision paper) ",
+        "text_rank": {
+            "generative adversarial networks": {
+                "count": 2,
+                "rank_score": 0.106824835688465
+            },
+            "real data": {
+                "count": 1,
+                "rank_score": 0.10629389219348619
+            },
+            "xi hanzhou chen1": {
+                "count": 1,
+                "rank_score": 0.08388310647038866
+            },
+            "geo-privacy trajectory data": {
+                "count": 1,
+                "rank_score": 0.0818632554021497
+            },
+            "university park": {
+                "count": 2,
+                "rank_score": 0.08030965824367783
+            },
+            "geo-privacy protection": {
+                "count": 3,
+                "rank_score": 0.07812891562995869
+            },
+            "a geo- privacy protection layer": {
+                "count": 1,
+                "rank_score": 0.07551316055418666
+            },
+            "vision paper": {
+                "count": 2,
+                "rank_score": 0.07545483515791312
+            },
+            "synthetic trajectories": {
+                "count": 1,
+                "rank_score": 0.07513842432606543
+            },
+            "clio andris1": {
+                "count": 1,
+                "rank_score": 0.07428355057364551
+            },
+            "xi hanzhou": {
+                "count": 1,
+                "rank_score": 0.06956517013928551
+            },
+            "validation metrics": {
+                "count": 1,
+                "rank_score": 0.06545398127768326
+            },
+            "the possible data generation scenarios": {
+                "count": 1,
+                "rank_score": 0.06478774748674457
+            },
+            "analysis tasks": {
+                "count": 1,
+                "rank_score": 0.06350908751549264
+            },
+            "generative": {
+                "count": 1,
+                "rank_score": 0.060674792353492636
+            },
+            "trajectory data publication": {
+                "count": 1,
+                "rank_score": 0.057770688559283384
+            },
+            "trajectory": {
+                "count": 1,
+                "rank_score": 0.05703420238438389
+            },
+            "usage": {
+                "count": 1,
+                "rank_score": 0.056930592345935845
+            },
+            "clio andris1 \n\ndepartment": {
+                "count": 1,
+                "rank_score": 0.055040746915250856
+            },
+            "trajectory data": {
+                "count": 2,
+                "rank_score": 0.052009718591623656
+            },
+            "the pennsylvania {xiliu,hzc176,clio}@psu.edu state university": {
+                "count": 2,
+                "rank_score": 0.05169509709108916
+            },
+            "geo": {
+                "count": 1,
+                "rank_score": 0.050969800864812884
+            },
+            "pa": {
+                "count": 1,
+                "rank_score": 0.050942231411226405
+            },
+            "geography": {
+                "count": 1,
+                "rank_score": 0.050024090506973984
+            },
+            "vision": {
+                "count": 1,
+                "rank_score": 0.04995746336186037
+            },
+            "real-data": {
+                "count": 1,
+                "rank_score": 0.04984534264976248
+            },
+            "the possible challenges": {
+                "count": 1,
+                "rank_score": 0.04896993282634072
+            },
+            "usa \n\nabstract": {
+                "count": 1,
+                "rank_score": 0.046966107602231355
+            },
+            "works": {
+                "count": 1,
+                "rank_score": 0.0451839899329186
+            },
+            "the trajgans framework": {
+                "count": 1,
+                "rank_score": 0.043771666803039504
+            },
+            "department of geography": {
+                "count": 1,
+                "rank_score": 0.04303895664645793
+            },
+            "the summary properties": {
+                "count": 1,
+                "rank_score": 0.04282931564901746
+            },
+            "trajgans": {
+                "count": 1,
+                "rank_score": 0.038266200306713
+            },
+            "the potential": {
+                "count": 1,
+                "rank_score": 0.024285624653632078
+            },
+            "· keywords": {
+                "count": 1,
+                "rank_score": 0.018683335495785224
+            },
+            "our goal": {
+                "count": 1,
+                "rank_score": 0.018269375983003364
+            },
+            "the trajectory types": {
+                "count": 1,
+                "rank_score": 0.018083034641981067
+            },
+            "we": {
+                "count": 7,
+                "rank_score": 0.0
+            }
+        }
+    },
+    {
+        "section_title": "1 Introduction and motivation ",
+        "text_rank": {
+            "real data": {
+                "count": 1,
+                "rank_score": 0.0843300328536016
+            },
+            "data": {
+                "count": 7,
+                "rank_score": 0.08197899902215244
+            },
+            "trajectory data": {
+                "count": 1,
+                "rank_score": 0.08043811354506257
+            },
+            "large input data": {
+                "count": 1,
+                "rank_score": 0.07690905126170364
+            },
+            "users": {
+                "count": 6,
+                "rank_score": 0.07087783251734159
+            },
+            "user ids": {
+                "count": 1,
+                "rank_score": 0.06976274356974721
+            },
+            "location information": {
+                "count": 2,
+                "rank_score": 0.06556387755137788
+            },
+            "social media check": {
+                "count": 1,
+                "rank_score": 0.06555079491590175
+            },
+            "high-quality synthetic data": {
+                "count": 1,
+                "rank_score": 0.06095171892859719
+            },
+            "multiple summary analysis tasks": {
+                "count": 1,
+                "rank_score": 0.058741053295440666
+            },
+            "social media platforms": {
+                "count": 1,
+                "rank_score": 0.05779215156872036
+            },
+            "mobile devices": {
+                "count": 2,
+                "rank_score": 0.05663797109294441
+            },
+            "multiple tasks": {
+                "count": 1,
+                "rank_score": 0.05347611304330453
+            },
+            "speciﬁc analysis tasks": {
+                "count": 1,
+                "rank_score": 0.05255451023308997
+            },
+            "neural network models": {
+                "count": 1,
+                "rank_score": 0.05239405040941661
+            },
+            "synthetic patient records": {
+                "count": 1,
+                "rank_score": 0.05158373672008909
+            },
+            "synthetic trajectory data": {
+                "count": 1,
+                "rank_score": 0.050419189065749465
+            },
+            "historical trajectory data": {
+                "count": 1,
+                "rank_score": 0.04891845365346833
+            },
+            "geo-privacy protection": {
+                "count": 2,
+                "rank_score": 0.04855419408532325
+            },
+            "adversarial networks": {
+                "count": 1,
+                "rank_score": 0.04822600032409913
+            },
+            "rich information": {
+                "count": 1,
+                "rank_score": 0.0479023198438657
+            },
+            "users’ detailed spatiotemporal traces": {
+                "count": 1,
+                "rank_score": 0.047232882773294016
+            },
+            "the training data": {
+                "count": 1,
+                "rank_score": 0.04618315103455002
+            },
+            "more uncertainty": {
+                "count": 1,
+                "rank_score": 0.04612639152211833
+            },
+            "massive trajectory data": {
+                "count": 1,
+                "rank_score": 0.0460960707044531
+            },
+            "people": {
+                "count": 3,
+                "rank_score": 0.045986316946955985
+            },
+            "most use cases": {
+                "count": 1,
+                "rank_score": 0.04485875915378682
+            },
+            "academic research": {
+                "count": 1,
+                "rank_score": 0.04435191234679152
+            },
+            "et al": {
+                "count": 1,
+                "rank_score": 0.04232831882198097
+            },
+            "urban planning": {
+                "count": 1,
+                "rank_score": 0.04204814017770473
+            },
+            "geo-privacy": {
+                "count": 2,
+                "rank_score": 0.04186710588614824
+            },
+            "commercial uses": {
+                "count": 1,
+                "rank_score": 0.04171259574830239
+            },
+            "re-identiﬁed": {
+                "count": 1,
+                "rank_score": 0.04157265340641133
+            },
+            "the historical data publication scenario": {
+                "count": 1,
+                "rank_score": 0.04149410113042138
+            },
+            "real-time locations": {
+                "count": 1,
+                "rank_score": 0.04146562818668942
+            },
+            "very little location information": {
+                "count": 1,
+                "rank_score": 0.041410324917419444
+            },
+            "trajgans": {
+                "count": 2,
+                "rank_score": 0.04138425567978873
+            },
+            "utility": {
+                "count": 2,
+                "rank_score": 0.04071893394660314
+            },
+            "current research": {
+                "count": 1,
+                "rank_score": 0.040365799993368895
+            },
+            "travel patterns": {
+                "count": 1,
+                "rank_score": 0.04023286380664677
+            },
+            "various sensors": {
+                "count": 1,
+                "rank_score": 0.03979413112100674
+            },
+            "comparable performance": {
+                "count": 1,
+                "rank_score": 0.039538248026759266
+            },
+            "motivation": {
+                "count": 1,
+                "rank_score": 0.03946910920818892
+            },
+            "home/work location": {
+                "count": 1,
+                "rank_score": 0.039238804236586336
+            },
+            "daily travel": {
+                "count": 1,
+                "rank_score": 0.03892271580679
+            },
+            "cities": {
+                "count": 2,
+                "rank_score": 0.038295407695980097
+            },
+            "uncertainty": {
+                "count": 1,
+                "rank_score": 0.03821864272254605
+            },
+            "the data quality": {
+                "count": 1,
+                "rank_score": 0.038077293070736665
+            },
+            "targeted advertisements": {
+                "count": 1,
+                "rank_score": 0.03777593937088605
+            },
+            "high-quality images": {
+                "count": 1,
+                "rank_score": 0.03764236274647193
+            },
+            "a social media company": {
+                "count": 1,
+                "rank_score": 0.03699851072798683
+            },
+            "the original data distribution": {
+                "count": 1,
+                "rank_score": 0.03601181715537864
+            },
+            "socioeconomic status": {
+                "count": 1,
+                "rank_score": 0.03534745852790981
+            },
+            "2 x. liu et al": {
+                "count": 1,
+                "rank_score": 0.03483414075997404
+            },
+            "a geo-privacy protection layer": {
+                "count": 1,
+                "rank_score": 0.03464376413191186
+            },
+            "gps signals": {
+                "count": 1,
+                "rank_score": 0.03437641004330868
+            },
+            "potential solutions": {
+                "count": 1,
+                "rank_score": 0.034302906629694485
+            },
+            "some privacy issues": {
+                "count": 1,
+                "rank_score": 0.03395384920816019
+            },
+            "personal identiﬁers": {
+                "count": 1,
+                "rank_score": 0.0332097428431052
+            },
+            "gans": {
+                "count": 2,
+                "rank_score": 0.03295202282007166
+            },
+            "algorithm": {
+                "count": 2,
+                "rank_score": 0.03249359766157521
+            },
+            "their privacy": {
+                "count": 1,
+                "rank_score": 0.031830938590973155
+            },
+            "places": {
+                "count": 1,
+                "rank_score": 0.03133185724973753
+            },
+            "opportunities": {
+                "count": 1,
+                "rank_score": 0.03125510357170989
+            },
+            "new perspectives": {
+                "count": 1,
+                "rank_score": 0.03099138601079298
+            },
+            "k-anonymity and diﬀerential privacy": {
+                "count": 1,
+                "rank_score": 0.030975909211714267
+            },
+            "the urban built environment": {
+                "count": 1,
+                "rank_score": 0.030847909243872405
+            },
+            "trajectory": {
+                "count": 1,
+                "rank_score": 0.03078856447390828
+            },
+            "gan": {
+                "count": 1,
+                "rank_score": 0.03056085219239
+            },
+            "ﬁelds": {
+                "count": 1,
+                "rank_score": 0.03054830760957646
+            },
+            "their mobile phones": {
+                "count": 1,
+                "rank_score": 0.02982352831511452
+            },
+            "check-ins": {
+                "count": 1,
+                "rank_score": 0.029767122439106317
+            },
+            "both neural networks": {
+                "count": 1,
+                "rank_score": 0.029242412964329507
+            },
+            "a nearby cell tower": {
+                "count": 1,
+                "rank_score": 0.02897850211391071
+            },
+            "transportation": {
+                "count": 1,
+                "rank_score": 0.028652571829247485
+            },
+            "gps": {
+                "count": 1,
+                "rank_score": 0.028499650952061084
+            },
+            "challenges": {
+                "count": 1,
+                "rank_score": 0.028181980427246
+            },
+            "the quality": {
+                "count": 1,
+                "rank_score": 0.027970438856616178
+            },
+            "the trajgans framework": {
+                "count": 1,
+                "rank_score": 0.02772920069031611
+            },
+            "medgan": {
+                "count": 2,
+                "rank_score": 0.026709215037626584
+            },
+            "foursquare": {
+                "count": 2,
+                "rank_score": 0.02646888996471056
+            },
+            "geography": {
+                "count": 1,
+                "rank_score": 0.025945901388410686
+            },
+            "rapidly-developing machine learning techniques": {
+                "count": 1,
+                "rank_score": 0.025463247017902514
+            },
+            "2 x. liu": {
+                "count": 1,
+                "rank_score": 0.024980856970741375
+            },
+            "the same distribution": {
+                "count": 1,
+                "rank_score": 0.02455235814912575
+            },
+            "a certain level": {
+                "count": 1,
+                "rank_score": 0.023886314462624826
+            },
+            "the statistical properties": {
+                "count": 1,
+                "rank_score": 0.022916160208396243
+            },
+            "two scenarios": {
+                "count": 2,
+                "rank_score": 0.022191333425103113
+            },
+            "twitter": {
+                "count": 1,
+                "rank_score": 0.021882145649374893
+            },
+            "a typical gan": {
+                "count": 1,
+                "rank_score": 0.021496404027452756
+            },
+            "a minimax game": {
+                "count": 1,
+                "rank_score": 0.020302724844777943
+            },
+            "a generator": {
+                "count": 1,
+                "rank_score": 0.016931686831330377
+            },
+            "the apps": {
+                "count": 1,
+                "rank_score": 0.0167573535876153
+            },
+            "the goal": {
+                "count": 2,
+                "rank_score": 0.015856191980447
+            },
+            "the studies": {
+                "count": 1,
+                "rank_score": 0.015621387858897275
+            },
+            "1 introduction": {
+                "count": 1,
+                "rank_score": 0.015127938740091147
+            },
+            "the trade-oﬀ": {
+                "count": 1,
+                "rank_score": 0.014842089644844724
+            },
+            "an \n\ncorresponding author": {
+                "count": 1,
+                "rank_score": 0.013920970640094819
+            },
+            "even only four or ﬁve check-ins he": {
+                "count": 1,
+                "rank_score": 0.01386442835143561
+            },
+            "their interactions": {
+                "count": 1,
+                "rank_score": 0.013734315422572814
+            },
+            "the potential": {
+                "count": 1,
+                "rank_score": 0.013391999360172982
+            },
+            "a family": {
+                "count": 1,
+                "rank_score": 0.012714415632976326
+            },
+            "example": {
+                "count": 2,
+                "rank_score": 0.012619866434564442
+            },
+            "instance": {
+                "count": 1,
+                "rank_score": 0.012619866434564442
+            },
+            "(figure": {
+                "count": 1,
+                "rank_score": 0.012082137069632006
+            },
+            "the extent": {
+                "count": 1,
+                "rank_score": 0.01172737480911061
+            },
+            "a discriminator": {
+                "count": 1,
+                "rank_score": 0.011225878534046836
+            },
+            "this paper": {
+                "count": 1,
+                "rank_score": 0.011154770447223135
+            },
+            "the footprint": {
+                "count": 1,
+                "rank_score": 0.00976459453002634
+            },
+            "four or ﬁve": {
+                "count": 1,
+                "rank_score": 0.009430844284060097
+            },
+            "1": {
+                "count": 17,
+                "rank_score": 0.0
+            }
+        }
+    },
+    {
+        "section_title": "2 Trajectory types and data generation scenarios ",
+        "text_rank": {
+            "place- based trajectories": {
+                "count": 1,
+                "rank_score": 0.10424619334704129
+            },
+            "synthetic trajectories": {
+                "count": 2,
+                "rank_score": 0.10378930025852087
+            },
+            "human trajectories": {
+                "count": 1,
+                "rank_score": 0.09816172818984803
+            },
+            "trajectories": {
+                "count": 5,
+                "rank_score": 0.09630930281623337
+            },
+            "real data": {
+                "count": 1,
+                "rank_score": 0.07821692358773019
+            },
+            "place-based trajectories": {
+                "count": 3,
+                "rank_score": 0.07394342487101332
+            },
+            "road-based trajectories": {
+                "count": 2,
+                "rank_score": 0.07346292897811615
+            },
+            "road segments": {
+                "count": 2,
+                "rank_score": 0.07321380157372594
+            },
+            "privacy protection": {
+                "count": 1,
+                "rank_score": 0.06569967719000952
+            },
+            "road- based trajectories": {
+                "count": 1,
+                "rank_score": 0.06523887363470104
+            },
+            "road networks": {
+                "count": 2,
+                "rank_score": 0.06498176322003486
+            },
+            "places": {
+                "count": 4,
+                "rank_score": 0.06465481675706763
+            },
+            "time stamps": {
+                "count": 3,
+                "rank_score": 0.06039789925925802
+            },
+            "summary analysis results": {
+                "count": 1,
+                "rank_score": 0.05975981440872116
+            },
+            "map matching algorithms": {
+                "count": 1,
+                "rank_score": 0.05899902872307945
+            },
+            "map matching": {
+                "count": 1,
+                "rank_score": 0.05798847443687199
+            },
+            "consecutive location points": {
+                "count": 1,
+                "rank_score": 0.05777684066355665
+            },
+            "tn >": {
+                "count": 2,
+                "rank_score": 0.05639411456895903
+            },
+            "the synthetic trajectory generation scenario": {
+                "count": 1,
+                "rank_score": 0.05638041735280253
+            },
+            "t2 sn": {
+                "count": 1,
+                "rank_score": 0.0560854892777531
+            },
+            "t2 pn": {
+                "count": 1,
+                "rank_score": 0.0560854892777531
+            },
+            "a users trajectory": {
+                "count": 1,
+                "rank_score": 0.055374558036101716
+            },
+            "multiple segments": {
+                "count": 1,
+                "rank_score": 0.054882192716977765
+            },
+            "synthetic trajectory data": {
+                "count": 1,
+                "rank_score": 0.05366524277869658
+            },
+            "t1 p2": {
+                "count": 1,
+                "rank_score": 0.053148239575723226
+            },
+            "points": {
+                "count": 1,
+                "rank_score": 0.051714065430179874
+            },
+            "human travel": {
+                "count": 1,
+                "rank_score": 0.04996564772966382
+            },
+            "2 trajectory types and data generation scenarios": {
+                "count": 1,
+                "rank_score": 0.04975987312369025
+            },
+            "published historical trajectory data": {
+                "count": 1,
+                "rank_score": 0.049545502597312635
+            },
+            "t2": {
+                "count": 2,
+                "rank_score": 0.04929021798324473
+            },
+            "mobile phone records": {
+                "count": 1,
+                "rank_score": 0.04882564082817298
+            },
+            "data publication": {
+                "count": 1,
+                "rank_score": 0.04771765938257623
+            },
+            "other trajectory data": {
+                "count": 1,
+                "rank_score": 0.046946120541193966
+            },
+            "analytical capabilities": {
+                "count": 1,
+                "rank_score": 0.04685602217261278
+            },
+            "similar properties": {
+                "count": 1,
+                "rank_score": 0.046419961617249234
+            },
+            "route recommendation": {
+                "count": 1,
+                "rank_score": 0.04581728784833476
+            },
+            "processed trajectory data": {
+                "count": 1,
+                "rank_score": 0.04570494426113894
+            },
+            "preprocessing steps": {
+                "count": 1,
+                "rank_score": 0.045642828299725234
+            },
+            "individual trajectory generation": {
+                "count": 2,
+                "rank_score": 0.04483096027874035
+            },
+            "raw trajectory data": {
+                "count": 1,
+                "rank_score": 0.04459855946091439
+            },
+            ">": {
+                "count": 1,
+                "rank_score": 0.044002587652262816
+            },
+            "aggre- gated trajectory generation": {
+                "count": 1,
+                "rank_score": 0.04327464783144487
+            },
+            "geo-privacy protection": {
+                "count": 1,
+                "rank_score": 0.04282630658202925
+            },
+            "tn": {
+                "count": 2,
+                "rank_score": 0.04281369139525219
+            },
+            "other animals": {
+                "count": 1,
+                "rank_score": 0.04281137106568135
+            },
+            "trajectory data": {
+                "count": 1,
+                "rank_score": 0.04212125019228634
+            },
+            "transportation planning": {
+                "count": 1,
+                "rank_score": 0.04146312601594802
+            },
+            "social media check-in data": {
+                "count": 1,
+                "rank_score": 0.040675088428368894
+            },
+            "stay-point detection": {
+                "count": 1,
+                "rank_score": 0.0396942178993787
+            },
+            "fig": {
+                "count": 1,
+                "rank_score": 0.03796837223001659
+            },
+            "l1": {
+                "count": 1,
+                "rank_score": 0.03774058524331536
+            },
+            "p2": {
+                "count": 1,
+                "rank_score": 0.03695556653797624
+            },
+            "trajgans": {
+                "count": 1,
+                "rank_score": 0.036782170996225036
+            },
+            "trajectory generation": {
+                "count": 1,
+                "rank_score": 0.03675942022353747
+            },
+            "pois": {
+                "count": 1,
+                "rank_score": 0.036222722036823495
+            },
+            "the geo-privacy protection layer": {
+                "count": 1,
+                "rank_score": 0.03530603715983378
+            },
+            "order": {
+                "count": 1,
+                "rank_score": 0.03509496044737734
+            },
+            "cities": {
+                "count": 1,
+                "rank_score": 0.034518707811385836
+            },
+            "movements": {
+                "count": 1,
+                "rank_score": 0.03438091699968419
+            },
+            "sequences": {
+                "count": 3,
+                "rank_score": 0.033800580472756844
+            },
+            "the summary statistics": {
+                "count": 1,
+                "rank_score": 0.032669744820773935
+            },
+            "neighborhoods": {
+                "count": 1,
+                "rank_score": 0.032107316279784984
+            },
+            "shopping": {
+                "count": 1,
+                "rank_score": 0.03203740712307066
+            },
+            "dining": {
+                "count": 1,
+                "rank_score": 0.03182356870374628
+            },
+            "semantics": {
+                "count": 1,
+                "rank_score": 0.031713658308296824
+            },
+            ", t1 s2": {
+                "count": 1,
+                "rank_score": 0.031366437601069413
+            },
+            "work": {
+                "count": 1,
+                "rank_score": 0.029891907152944465
+            },
+            "bikes": {
+                "count": 1,
+                "rank_score": 0.02851025833818552
+            },
+            "interest": {
+                "count": 1,
+                "rank_score": 0.02782157989217786
+            },
+            "one unique property": {
+                "count": 1,
+                "rank_score": 0.027706342935520333
+            },
+            "pi": {
+                "count": 1,
+                "rank_score": 0.027626496504545718
+            },
+            "si": {
+                "count": 1,
+                "rank_score": 0.027626496504545715
+            },
+            "trajectory": {
+                "count": 1,
+                "rank_score": 0.02735834697179378
+            },
+            "each individual people": {
+                "count": 1,
+                "rank_score": 0.027093161778818285
+            },
+            "the related activities": {
+                "count": 1,
+                "rank_score": 0.02595938190848019
+            },
+            "gans": {
+                "count": 1,
+                "rank_score": 0.025853628574377382
+            },
+            "the generative model": {
+                "count": 1,
+                "rank_score": 0.025732018071404662
+            },
+            "the original dataset": {
+                "count": 1,
+                "rank_score": 0.023707384102255983
+            },
+            "the urban topology": {
+                "count": 1,
+                "rank_score": 0.023301119078662676
+            },
+            "the property": {
+                "count": 1,
+                "rank_score": 0.023142279929033685
+            },
+            "uber/lyft": {
+                "count": 2,
+                "rank_score": 0.022937101103971323
+            },
+            "more interpretable formats": {
+                "count": 1,
+                "rank_score": 0.02272438542820008
+            },
+            "< x, y, t": {
+                "count": 1,
+                "rank_score": 0.02205763099941876
+            },
+            "the geometric information": {
+                "count": 1,
+                "rank_score": 0.02068027900746018
+            },
+            "the user": {
+                "count": 1,
+                "rank_score": 0.018051469468254134
+            },
+            "the usage": {
+                "count": 1,
+                "rank_score": 0.01673148132954577
+            },
+            "a person": {
+                "count": 1,
+                "rank_score": 0.014961155510325935
+            },
+            "each trip": {
+                "count": 1,
+                "rank_score": 0.014798553677324302
+            },
+            "an example": {
+                "count": 1,
+                "rank_score": 0.013716767536911352
+            },
+            "the goal": {
+                "count": 1,
+                "rank_score": 0.013674636904255775
+            },
+            "two categories": {
+                "count": 1,
+                "rank_score": 0.013545767263632937
+            },
+            "(figure": {
+                "count": 1,
+                "rank_score": 0.01133045237533472
+            },
+            "i.e. < p1": {
+                "count": 2,
+                "rank_score": 0.010799570250629652
+            },
+            "one": {
+                "count": 16,
+                "rank_score": 0.0
+            }
+        }
+    },
+    {
+        "section_title": "3 The trajGANs framework ",
+        "text_rank": {
+            "place- based trajectories": {
+                "count": 1,
+                "rank_score": 0.0974175876583852
+            },
+            "synthetic trajectory samples": {
+                "count": 1,
+                "rank_score": 0.09133733561488216
+            },
+            "synthetic trajectories": {
+                "count": 2,
+                "rank_score": 0.09116476100784243
+            },
+            "trajectories": {
+                "count": 7,
+                "rank_score": 0.08870260856641683
+            },
+            "indistinguishable trajectory samples": {
+                "count": 1,
+                "rank_score": 0.08572791463092311
+            },
+            "place-based trajectories": {
+                "count": 2,
+                "rank_score": 0.0658739164049962
+            },
+            "road-based trajectories": {
+                "count": 3,
+                "rank_score": 0.06561998126439335
+            },
+            "time stamps": {
+                "count": 2,
+                "rank_score": 0.06545825514881935
+            },
+            "place vectors": {
+                "count": 1,
+                "rank_score": 0.0640113688917381
+            },
+            "real data": {
+                "count": 1,
+                "rank_score": 0.06244618686944183
+            },
+            "synthetic data": {
+                "count": 1,
+                "rank_score": 0.0611578834418832
+            },
+            "random process models": {
+                "count": 1,
+                "rank_score": 0.06028472209406913
+            },
+            "vector representations": {
+                "count": 1,
+                "rank_score": 0.060156202172172366
+            },
+            "the real trajectory samples": {
+                "count": 1,
+                "rank_score": 0.05873556896621575
+            },
+            "road networks": {
+                "count": 1,
+                "rank_score": 0.05587024937888037
+            },
+            "real and fake trajectories": {
+                "count": 1,
+                "rank_score": 0.05569024739913245
+            },
+            "the real trajectories": {
+                "count": 1,
+                "rank_score": 0.05431559100717538
+            },
+            "home places": {
+                "count": 1,
+                "rank_score": 0.05341485677304125
+            },
+            "more properties": {
+                "count": 1,
+                "rank_score": 0.052687717537760484
+            },
+            "road segments": {
+                "count": 2,
+                "rank_score": 0.05262416318546603
+            },
+            "trajectory-related analysis": {
+                "count": 1,
+                "rank_score": 0.05242527998187084
+            },
+            "the input trajectories": {
+                "count": 1,
+                "rank_score": 0.051682692057577695
+            },
+            "a trajectory sequence": {
+                "count": 1,
+                "rank_score": 0.050381078708193874
+            },
+            "x. liu et al": {
+                "count": 1,
+                "rank_score": 0.05029321713799077
+            },
+            "multiple validation metrics": {
+                "count": 1,
+                "rank_score": 0.050197098734645146
+            },
+            "dense representations": {
+                "count": 2,
+                "rank_score": 0.04966527955231449
+            },
+            "generating time-stamps": {
+                "count": 1,
+                "rank_score": 0.049570846011694675
+            },
+            "small areas": {
+                "count": 1,
+                "rank_score": 0.04891600872545615
+            },
+            "properties": {
+                "count": 2,
+                "rank_score": 0.04858795739659006
+            },
+            "places": {
+                "count": 1,
+                "rank_score": 0.04828739420864546
+            },
+            "random deviations": {
+                "count": 1,
+                "rank_score": 0.047717501914441754
+            },
+            "discriminator d classiﬁes": {
+                "count": 1,
+                "rank_score": 0.04679347988428724
+            },
+            "et al.": {
+                "count": 1,
+                "rank_score": 0.04636567976523471
+            },
+            "continuous geographical space": {
+                "count": 1,
+                "rank_score": 0.04563267058859405
+            },
+            "work": {
+                "count": 1,
+                "rank_score": 0.044599053943999885
+            },
+            "non-linear transformations": {
+                "count": 1,
+                "rank_score": 0.043671899903246374
+            },
+            "the rnn based encoder": {
+                "count": 1,
+                "rank_score": 0.043615611446886735
+            },
+            "metrics": {
+                "count": 3,
+                "rank_score": 0.04354743954350576
+            },
+            "recurrent neural networks": {
+                "count": 1,
+                "rank_score": 0.04350368393240875
+            },
+            "validation metrics": {
+                "count": 1,
+                "rank_score": 0.04317947402612314
+            },
+            "trajgans": {
+                "count": 4,
+                "rank_score": 0.04290879586869224
+            },
+            "distributional representations": {
+                "count": 1,
+                "rank_score": 0.0423857024547569
+            },
+            "et al": {
+                "count": 1,
+                "rank_score": 0.04208185131987602
+            },
+            "travel patterns": {
+                "count": 1,
+                "rank_score": 0.041370387280390886
+            },
+            "diﬀerent usage scenarios": {
+                "count": 1,
+                "rank_score": 0.041267337472003396
+            },
+            "published datasets": {
+                "count": 1,
+                "rank_score": 0.040904812403105645
+            },
+            "travel speed": {
+                "count": 1,
+                "rank_score": 0.040752929270118844
+            },
+            "more realistic time stamps": {
+                "count": 1,
+                "rank_score": 0.040711665225412114
+            },
+            "neural networks": {
+                "count": 1,
+                "rank_score": 0.040267050072551415
+            },
+            "a random vector z": {
+                "count": 1,
+                "rank_score": 0.03900309675937388
+            },
+            "other words": {
+                "count": 1,
+                "rank_score": 0.03886219029953362
+            },
+            "certain home and work locations": {
+                "count": 1,
+                "rank_score": 0.03880110698309709
+            },
+            ") − min max log d(x": {
+                "count": 1,
+                "rank_score": 0.03845959452380326
+            },
+            "discriminator": {
+                "count": 1,
+                "rank_score": 0.03764173180305669
+            },
+            "d": {
+                "count": 4,
+                "rank_score": 0.03734487779422602
+            },
+            "g": {
+                "count": 2,
+                "rank_score": 0.03711871363227667
+            },
+            "the learned time-stamp vectors": {
+                "count": 1,
+                "rank_score": 0.036797410961301
+            },
+            "slots": {
+                "count": 3,
+                "rank_score": 0.036306694481409864
+            },
+            "diﬀerent perspectives": {
+                "count": 1,
+                "rank_score": 0.03618016447763708
+            },
+            "place-based trajectory generation": {
+                "count": 1,
+                "rank_score": 0.035434303711432066
+            },
+            "input": {
+                "count": 1,
+                "rank_score": 0.034942942003307206
+            },
+            "poi embedding": {
+                "count": 1,
+                "rank_score": 0.03474428620333658
+            },
+            "−": {
+                "count": 1,
+                "rank_score": 0.03450695329142767
+            },
+            "more adaptations": {
+                "count": 1,
+                "rank_score": 0.03442838897522873
+            },
+            "data-generation scenarios": {
+                "count": 1,
+                "rank_score": 0.03428860743128211
+            },
+            "the real samples": {
+                "count": 1,
+                "rank_score": 0.03388650504481106
+            },
+            "embeddings": {
+                "count": 2,
+                "rank_score": 0.03369859940797857
+            },
+            "rnn": {
+                "count": 1,
+                "rank_score": 0.033115360734552526
+            },
+            "performance": {
+                "count": 3,
+                "rank_score": 0.03288830279670925
+            },
+            "analysis": {
+                "count": 1,
+                "rank_score": 0.03286235780721884
+            },
+            "the conditional generative adversarial network": {
+                "count": 1,
+                "rank_score": 0.03253803717198428
+            },
+            "anchor points": {
+                "count": 1,
+                "rank_score": 0.031566618296819685
+            },
+            "residential and commercial areas": {
+                "count": 1,
+                "rank_score": 0.03143868451189692
+            },
+            "trajectory sequences": {
+                "count": 1,
+                "rank_score": 0.031096016426556617
+            },
+            "rnns": {
+                "count": 1,
+                "rank_score": 0.03092496675027293
+            },
+            "day": {
+                "count": 2,
+                "rank_score": 0.03083778445534656
+            },
+            "fed": {
+                "count": 1,
+                "rank_score": 0.030702313428887733
+            },
+            "a speciﬁc time-stamp": {
+                "count": 1,
+                "rank_score": 0.030614325020409824
+            },
+            "the generator g": {
+                "count": 1,
+                "rank_score": 0.030356044541285
+            },
+            "a generator g": {
+                "count": 1,
+                "rank_score": 0.0299043954993771
+            },
+            "the ideal fundamental structure": {
+                "count": 1,
+                "rank_score": 0.029579455274020183
+            },
+            "the rnn structure": {
+                "count": 1,
+                "rank_score": 0.02910693445210118
+            },
+            "a discriminator d": {
+                "count": 1,
+                "rank_score": 0.02874453777272905
+            },
+            "the same properties": {
+                "count": 1,
+                "rank_score": 0.02860306704952688
+            },
+            "most related work": {
+                "count": 1,
+                "rank_score": 0.028601657372885104
+            },
+            "cities": {
+                "count": 1,
+                "rank_score": 0.02842244643074237
+            },
+            "ex∼pdata": {
+                "count": 1,
+                "rank_score": 0.028262852955697228
+            },
+            "gans": {
+                "count": 1,
+                "rank_score": 0.02823682602704726
+            },
+            "the trajgans framework": {
+                "count": 2,
+                "rank_score": 0.02772241025957386
+            },
+            "the training process": {
+                "count": 3,
+                "rank_score": 0.02711648317310795
+            },
+            "the detailed structure": {
+                "count": 1,
+                "rank_score": 0.02684627541864142
+            },
+            "hour": {
+                "count": 1,
+                "rank_score": 0.02683705593253976
+            },
+            "the discriminator d": {
+                "count": 1,
+                "rank_score": 0.026503263311753306
+            },
+            "gan": {
+                "count": 1,
+                "rank_score": 0.026333841963679223
+            },
+            "trajectory data": {
+                "count": 1,
+                "rank_score": 0.026255329326934262
+            },
+            "the following objective function": {
+                "count": 1,
+                "rank_score": 0.02617514393850911
+            },
+            "pois": {
+                "count": 1,
+                "rank_score": 0.025963123225521995
+            },
+            "geo-privacy protection": {
+                "count": 1,
+                "rank_score": 0.02586139329467007
+            },
+            "the next location": {
+                "count": 1,
+                "rank_score": 0.024837011704704003
+            },
+            "the decoding process": {
+                "count": 1,
+                "rank_score": 0.024757051852732956
+            },
+            "a ﬁxed-length vector": {
+                "count": 1,
+                "rank_score": 0.024567473578276388
+            },
+            "a typical gan": {
+                "count": 1,
+                "rank_score": 0.02419180246715215
+            },
+            "the spatial and/or temporal properties": {
+                "count": 1,
+                "rank_score": 0.024181933595177372
+            },
+            "z": {
+                "count": 1,
+                "rank_score": 0.023981552854217717
+            },
+            "6 x. liu": {
+                "count": 1,
+                "rank_score": 0.023927823778076788
+            },
+            "(e.g. grids, census tracts": {
+                "count": 1,
+                "rank_score": 0.02383191937389565
+            },
+            "those areas": {
+                "count": 1,
+                "rank_score": 0.023553798727714202
+            },
+            "numbers": {
+                "count": 1,
+                "rank_score": 0.02325115734995802
+            },
+            "research": {
+                "count": 1,
+                "rank_score": 0.022923047710399838
+            },
+            "attention": {
+                "count": 1,
+                "rank_score": 0.02274529305240222
+            },
+            "table": {
+                "count": 2,
+                "rank_score": 0.02251438012464866
+            },
+            "the whole dataset": {
+                "count": 1,
+                "rank_score": 0.022431486316154946
+            },
+            "decoder": {
+                "count": 1,
+                "rank_score": 0.022288628762387443
+            },
+            "the representation": {
+                "count": 1,
+                "rank_score": 0.02227601051340826
+            },
+            "the generator": {
+                "count": 3,
+                "rank_score": 0.022234843145429995
+            },
+            "d.": {
+                "count": 1,
+                "rank_score": 0.022208515843123965
+            },
+            "individuals": {
+                "count": 1,
+                "rank_score": 0.02194250017287909
+            },
+            "the current literature": {
+                "count": 1,
+                "rank_score": 0.021737283412279856
+            },
+            "cgan": {
+                "count": 2,
+                "rank_score": 0.021640633900719998
+            },
+            "the original trajectory data": {
+                "count": 1,
+                "rank_score": 0.021591807915021494
+            },
+            "fig": {
+                "count": 2,
+                "rank_score": 0.02087627833225757
+            },
+            "a minimax game": {
+                "count": 1,
+                "rank_score": 0.020266902593969634
+            },
+            "lstm/gru": {
+                "count": 2,
+                "rank_score": 0.0200914410273856
+            },
+            "output": {
+                "count": 1,
+                "rank_score": 0.019995039970723993
+            },
+            "trajectory": {
+                "count": 1,
+                "rank_score": 0.019418312747709516
+            },
+            "an emerging topic": {
+                "count": 1,
+                "rank_score": 0.01929884048708931
+            },
+            "home and work locations": {
+                "count": 1,
+                "rank_score": 0.0192850381125026
+            },
+            "p(z": {
+                "count": 1,
+                "rank_score": 0.019055143302282317
+            },
+            "log(1": {
+                "count": 1,
+                "rank_score": 0.01891407037116803
+            },
+            "one possible solution": {
+                "count": 1,
+                "rank_score": 0.01866651486610992
+            },
+            "two main parts": {
+                "count": 1,
+                "rank_score": 0.018298891649897047
+            },
+            "a model": {
+                "count": 1,
+                "rank_score": 0.018271335666842508
+            },
+            "modiﬁcations": {
+                "count": 1,
+                "rank_score": 0.017820162915405634
+            },
+            "pdata": {
+                "count": 1,
+                "rank_score": 0.01763389046097416
+            },
+            "such as hour of the day": {
+                "count": 1,
+                "rank_score": 0.017457887834064247
+            },
+            "d. the g and": {
+                "count": 1,
+                "rank_score": 0.017340679721304
+            },
+            "the distribution": {
+                "count": 3,
+                "rank_score": 0.017098353319527526
+            },
+            "the spatially adjacent ones": {
+                "count": 1,
+                "rank_score": 0.01696085035422775
+            },
+            "(1) g d": {
+                "count": 1,
+                "rank_score": 0.016894535980287735
+            },
+            "the basic elements": {
+                "count": 1,
+                "rank_score": 0.016669158149939765
+            },
+            "the encoder": {
+                "count": 1,
+                "rank_score": 0.01485615071322782
+            },
+            "the framework": {
+                "count": 1,
+                "rank_score": 0.01475403606964353
+            },
+            "an issue": {
+                "count": 1,
+                "rank_score": 0.014082383665260306
+            },
+            "a trajgan": {
+                "count": 2,
+                "rank_score": 0.013974410965013602
+            },
+            "one challenge": {
+                "count": 1,
+                "rank_score": 0.013082904026769926
+            },
+            "the transition": {
+                "count": 1,
+                "rank_score": 0.012309342751812823
+            },
+            "some studies": {
+                "count": 1,
+                "rank_score": 0.01219456412668976
+            },
+            "the complexity": {
+                "count": 1,
+                "rank_score": 0.011853549627932716
+            },
+            "the probability": {
+                "count": 1,
+                "rank_score": 0.011633512960651116
+            },
+            "(figure": {
+                "count": 1,
+                "rank_score": 0.010819710458487673
+            },
+            "the rnns": {
+                "count": 1,
+                "rank_score": 0.010773913992094535
+            },
+            "the week": {
+                "count": 1,
+                "rank_score": 0.010655701322342078
+            },
+            "trajectory types": {
+                "count": 1,
+                "rank_score": 0.010452040408312288
+            },
+            "the granularity": {
+                "count": 1,
+                "rank_score": 0.009214974646088907
+            },
+            "each user": {
+                "count": 1,
+                "rank_score": 0.006144651810471373
+            },
+            "the tasks": {
+                "count": 1,
+                "rank_score": 0.006144651810471373
+            },
+            "1": {
+                "count": 25,
+                "rank_score": 0.0
+            }
+        }
+    },
+    {
+        "section_title": "5 Conclusions and Discussion ",
+        "text_rank": {
+            "real data": {
+                "count": 1,
+                "rank_score": 0.09063273780183206
+            },
+            "original data": {
+                "count": 1,
+                "rank_score": 0.08885720928184015
+            },
+            "pre-calculated statistical metrics": {
+                "count": 1,
+                "rank_score": 0.08307542305333082
+            },
+            "many interesting patterns": {
+                "count": 1,
+                "rank_score": 0.07736754554095025
+            },
+            "synthetic trajectories": {
+                "count": 1,
+                "rank_score": 0.07646317866668896
+            },
+            "simulation models": {
+                "count": 1,
+                "rank_score": 0.07335273271075016
+            },
+            "trajgans": {
+                "count": 3,
+                "rank_score": 0.07289910415866328
+            },
+            "many engineering challenges": {
+                "count": 1,
+                "rank_score": 0.07241103435377487
+            },
+            "trajectories": {
+                "count": 2,
+                "rank_score": 0.07175868379862851
+            },
+            "privacy": {
+                "count": 1,
+                "rank_score": 0.07074485799439115
+            },
+            "major challenges": {
+                "count": 1,
+                "rank_score": 0.06651625560567037
+            },
+            "more properties": {
+                "count": 1,
+                "rank_score": 0.06641578692047274
+            },
+            "competitive performance": {
+                "count": 1,
+                "rank_score": 0.060305552628938976
+            },
+            "the occasional inter-city travels": {
+                "count": 1,
+                "rank_score": 0.05849259488159871
+            },
+            "geo-privacy protection": {
+                "count": 1,
+                "rank_score": 0.05836744264192277
+            },
+            "explicit functions": {
+                "count": 1,
+                "rank_score": 0.0553726343092375
+            },
+            "geo-privacy": {
+                "count": 1,
+                "rank_score": 0.05463715787697365
+            },
+            "the training data": {
+                "count": 1,
+                "rank_score": 0.05381828889582885
+            },
+            "training samples": {
+                "count": 1,
+                "rank_score": 0.05357831115765173
+            },
+            "important tasks": {
+                "count": 1,
+                "rank_score": 0.05082906639731101
+            },
+            "simulations": {
+                "count": 1,
+                "rank_score": 0.05077674267540455
+            },
+            "planning": {
+                "count": 1,
+                "rank_score": 0.05021169565965534
+            },
+            "trajectory related geo-privacy issues": {
+                "count": 1,
+                "rank_score": 0.04998975089824028
+            },
+            "aforementioned trajectory embedding and time-stamp issues": {
+                "count": 1,
+                "rank_score": 0.048696806048539196
+            },
+            "the summary statistical properties": {
+                "count": 1,
+                "rank_score": 0.0485980907891652
+            },
+            "gans": {
+                "count": 2,
+                "rank_score": 0.04828797599749258
+            },
+            "these data": {
+                "count": 4,
+                "rank_score": 0.04719106739218477
+            },
+            "problems": {
+                "count": 1,
+                "rank_score": 0.04671529722908414
+            },
+            "the trajgans framework": {
+                "count": 1,
+                "rank_score": 0.04577684603456603
+            },
+            "discussion": {
+                "count": 2,
+                "rank_score": 0.045572395134977545
+            },
+            "oﬀ": {
+                "count": 1,
+                "rank_score": 0.04507167613694863
+            },
+            "high-level patterns": {
+                "count": 1,
+                "rank_score": 0.04466429992746334
+            },
+            "oﬀer": {
+                "count": 1,
+                "rank_score": 0.04458103257106128
+            },
+            "people": {
+                "count": 2,
+                "rank_score": 0.040603283040162336
+            },
+            "their continued use": {
+                "count": 1,
+                "rank_score": 0.03724454956675105
+            },
+            "behavior": {
+                "count": 1,
+                "rank_score": 0.036929241309459036
+            },
+            "the model": {
+                "count": 2,
+                "rank_score": 0.03268639713957817
+            },
+            "policy": {
+                "count": 1,
+                "rank_score": 0.03202862732574096
+            },
+            "a local optimum": {
+                "count": 1,
+                "rank_score": 0.031912962522346884
+            },
+            "a deep understanding": {
+                "count": 1,
+                "rank_score": 0.031733426127070974
+            },
+            "the built environment": {
+                "count": 1,
+                "rank_score": 0.0309322168174939
+            },
+            "these challenges": {
+                "count": 1,
+                "rank_score": 0.02959435966860713
+            },
+            "this vision paper": {
+                "count": 1,
+                "rank_score": 0.029151541273735183
+            },
+            "the complex distribution": {
+                "count": 1,
+                "rank_score": 0.028448703367780912
+            },
+            "a more straightforward approach": {
+                "count": 1,
+                "rank_score": 0.02583711946644009
+            },
+            "5 conclusions": {
+                "count": 1,
+                "rank_score": 0.02416841222614159
+            },
+            "the potential": {
+                "count": 1,
+                "rank_score": 0.020696727762650302
+            },
+            "the future": {
+                "count": 1,
+                "rank_score": 0.01817341317596289
+            },
+            "trajectory": {
+                "count": 8,
+                "rank_score": 0.0
+            }
+        }
+    },
+    {
+        "section_title": "References ",
+        "text_rank": {
+            "generative adversarial networks": {
+                "count": 1,
+                "rank_score": 0.08111836565255505
+            },
+            "deep convolutional generative adversarial networks": {
+                "count": 1,
+                "rank_score": 0.08070367043328115
+            },
+            "s.": {
+                "count": 4,
+                "rank_score": 0.064609515881627
+            },
+            "human trajectories": {
+                "count": 1,
+                "rank_score": 0.06351009444090769
+            },
+            "recurrent neural networks": {
+                "count": 1,
+                "rank_score": 0.06202789724169742
+            },
+            "m.": {
+                "count": 3,
+                "rank_score": 0.061352339225545845
+            },
+            "neural information processing systems": {
+                "count": 1,
+                "rank_score": 0.060183326739640886
+            },
+            "human mobility": {
+                "count": 2,
+                "rank_score": 0.06013132459887226
+            },
+            "trajectory embeddings": {
+                "count": 1,
+                "rank_score": 0.05991634018654128
+            },
+            "adversarial nets": {
+                "count": 2,
+                "rank_score": 0.05887260103314499
+            },
+            "acm transactions": {
+                "count": 1,
+                "rank_score": 0.05861396260330022
+            },
+            "arxiv preprint arxiv:1411.1784": {
+                "count": 1,
+                "rank_score": 0.058236691179375404
+            },
+            "arxiv preprint arxiv:1511.06434": {
+                "count": 1,
+                "rank_score": 0.058236691179375404
+            },
+            "trajectory data mining": {
+                "count": 1,
+                "rank_score": 0.05747904451957177
+            },
+            "discrete patient records": {
+                "count": 1,
+                "rank_score": 0.05733170117423147
+            },
+            "b.": {
+                "count": 2,
+                "rank_score": 0.051259775613098614
+            },
+            "h.": {
+                "count": 1,
+                "rank_score": 0.05038931252238686
+            },
+            "w.": {
+                "count": 5,
+                "rank_score": 0.05023928801909315
+            },
+            "data publication": {
+                "count": 1,
+                "rank_score": 0.04973033939808787
+            },
+            "a non-parametric generative model": {
+                "count": 1,
+                "rank_score": 0.04930567614757581
+            },
+            "wang": {
+                "count": 2,
+                "rank_score": 0.049136234489859994
+            },
+            "machine learning": {
+                "count": 1,
+                "rank_score": 0.049092012659300015
+            },
+            "healthcare conference": {
+                "count": 1,
+                "rank_score": 0.049092012659300015
+            },
+            "j.": {
+                "count": 4,
+                "rank_score": 0.04862455647986379
+            },
+            "f.": {
+                "count": 2,
+                "rank_score": 0.04803727716739029
+            },
+            "a.": {
+                "count": 1,
+                "rank_score": 0.047866394184729946
+            },
+            "k.": {
+                "count": 2,
+                "rank_score": 0.04770133353703666
+            },
+            "geo-temporal sequential embedding rank": {
+                "count": 1,
+                "rank_score": 0.04663310496338053
+            },
+            "de montjoye": {
+                "count": 2,
+                "rank_score": 0.04639812937045095
+            },
+            "location-based services": {
+                "count": 1,
+                "rank_score": 0.04465795648143947
+            },
+            "zhang": {
+                "count": 3,
+                "rank_score": 0.04441936022506189
+            },
+            "location-based recommendation": {
+                "count": 1,
+                "rank_score": 0.04387591795347531
+            },
+            "transactions": {
+                "count": 1,
+                "rank_score": 0.04379297358364542
+            },
+            "c.y.": {
+                "count": 2,
+                "rank_score": 0.04305934099200038
+            },
+            "mokbel": {
+                "count": 2,
+                "rank_score": 0.04305934099200038
+            },
+            "g.": {
+                "count": 2,
+                "rank_score": 0.04301501942556692
+            },
+            "sun": {
+                "count": 2,
+                "rank_score": 0.04285464697580495
+            },
+            "y.a.": {
+                "count": 2,
+                "rank_score": 0.04281280564347602
+            },
+            "acm sigkdd explorations newsletter 13(1": {
+                "count": 1,
+                "rank_score": 0.04199377885022416
+            },
+            "chen": {
+                "count": 2,
+                "rank_score": 0.04167802531124386
+            },
+            "geo": {
+                "count": 1,
+                "rank_score": 0.039766837075670025
+            },
+            "acm transactions on intelligent systems and technology": {
+                "count": 1,
+                "rank_score": 0.039114190634099
+            },
+            "zhao": {
+                "count": 3,
+                "rank_score": 0.03872805716885604
+            },
+            "lyu": {
+                "count": 1,
+                "rank_score": 0.03825083470836435
+            },
+            "wang, h.": {
+                "count": 1,
+                "rank_score": 0.03815374749054106
+            },
+            "pp": {
+                "count": 1,
+                "rank_score": 0.03779104896520985
+            },
+            "unique": {
+                "count": 1,
+                "rank_score": 0.03779104896520985
+            },
+            "q.": {
+                "count": 2,
+                "rank_score": 0.03778711587921594
+            },
+            "zheng": {
+                "count": 3,
+                "rank_score": 0.03765220695725034
+            },
+            "mirza": {
+                "count": 3,
+                "rank_score": 0.037624885423143455
+            },
+            "mckenzie": {
+                "count": 1,
+                "rank_score": 0.037375584361348926
+            },
+            "label": {
+                "count": 1,
+                "rank_score": 0.036905593442262824
+            },
+            "r.": {
+                "count": 1,
+                "rank_score": 0.03588890709311207
+            },
+            "rosenblum": {
+                "count": 1,
+                "rank_score": 0.035789617733543
+            },
+            "hidalgo": {
+                "count": 1,
+                "rank_score": 0.03545573400481459
+            },
+            "blondel": {
+                "count": 1,
+                "rank_score": 0.03530328210933843
+            },
+            "shokri": {
+                "count": 1,
+                "rank_score": 0.03528125917485208
+            },
+            "c.a.": {
+                "count": 1,
+                "rank_score": 0.03510191338740677
+            },
+            "luo": {
+                "count": 1,
+                "rank_score": 0.03506516277545059
+            },
+            "d.s.": {
+                "count": 2,
+                "rank_score": 0.034966731503455584
+            },
+            "trajcevski": {
+                "count": 2,
+                "rank_score": 0.034951315022954677
+            },
+            "metz": {
+                "count": 1,
+                "rank_score": 0.034837983869257357
+            },
+            "zhou": {
+                "count": 2,
+                "rank_score": 0.03482806274844945
+            },
+            "l.": {
+                "count": 1,
+                "rank_score": 0.03473896892801975
+            },
+            "biswal": {
+                "count": 1,
+                "rank_score": 0.03451951541556656
+            },
+            "d.": {
+                "count": 1,
+                "rank_score": 0.034507724507880894
+            },
+            "xu, f.": {
+                "count": 1,
+                "rank_score": 0.03447960664624251
+            },
+            "bengio": {
+                "count": 1,
+                "rank_score": 0.034276755403374146
+            },
+            "x.": {
+                "count": 2,
+                "rank_score": 0.03400680109083694
+            },
+            "verleysen": {
+                "count": 1,
+                "rank_score": 0.033728285601446445
+            },
+            "chintala": {
+                "count": 2,
+                "rank_score": 0.033482552828541054
+            },
+            "y.": {
+                "count": 2,
+                "rank_score": 0.03339967845953128
+            },
+            "ozair": {
+                "count": 1,
+                "rank_score": 0.033382631637238314
+            },
+            "courville": {
+                "count": 1,
+                "rank_score": 0.03309177978207063
+            },
+            "yang": {
+                "count": 2,
+                "rank_score": 0.03303169946963963
+            },
+            "stewart": {
+                "count": 1,
+                "rank_score": 0.03263971426895161
+            },
+            "w.f.": {
+                "count": 1,
+                "rank_score": 0.032519773170665206
+            },
+            "osindero": {
+                "count": 1,
+                "rank_score": 0.03175122090563945
+            },
+            "chow": {
+                "count": 2,
+                "rank_score": 0.03165785711504196
+            },
+            "m.f.": {
+                "count": 2,
+                "rank_score": 0.03165785711504196
+            },
+            "trajectory": {
+                "count": 1,
+                "rank_score": 0.03160738849980729
+            },
+            "malin": {
+                "count": 1,
+                "rank_score": 0.031312107806595706
+            },
+            "z.": {
+                "count": 1,
+                "rank_score": 0.031207584162189238
+            },
+            "yin": {
+                "count": 1,
+                "rank_score": 0.031202106127640756
+            },
+            "goodfellow, i.": {
+                "count": 1,
+                "rank_score": 0.031073410794829184
+            },
+            "generating": {
+                "count": 1,
+                "rank_score": 0.030194712802809935
+            },
+            "keßler": {
+                "count": 2,
+                "rank_score": 0.029544763397241356
+            },
+            "a geoprivacy manifesto": {
+                "count": 1,
+                "rank_score": 0.02897257866076536
+            },
+            "m.r.": {
+                "count": 2,
+                "rank_score": 0.028915067920363587
+            },
+            "gao": {
+                "count": 2,
+                "rank_score": 0.02865101549272213
+            },
+            "advances": {
+                "count": 1,
+                "rank_score": 0.027980709584972653
+            },
+            "v.d.": {
+                "count": 2,
+                "rank_score": 0.027277367829196004
+            },
+            "geo-teaser": {
+                "count": 1,
+                "rank_score": 0.026929691950649884
+            },
+            "t., king": {
+                "count": 1,
+                "rank_score": 0.02667048928828359
+            },
+            "references \n\n\n\nchoi": {
+                "count": 1,
+                "rank_score": 0.026555721488938217
+            },
+            "radford": {
+                "count": 1,
+                "rank_score": 0.026475405309336494
+            },
+            "pouget-abadie": {
+                "count": 1,
+                "rank_score": 0.026447422073700676
+            },
+            "ouyang": {
+                "count": 1,
+                "rank_score": 0.026411231695634328
+            },
+            "warde-farley": {
+                "count": 1,
+                "rank_score": 0.02584229527494173
+            },
+            "radford, a., metz, l.": {
+                "count": 1,
+                "rank_score": 0.02509645650797164
+            },
+            "xie": {
+                "count": 2,
+                "rank_score": 0.02477945169182118
+            },
+            "ouyang, k., shokri, r., rosenblum": {
+                "count": 1,
+                "rank_score": 0.02458194829963136
+            },
+            "wu": {
+                "count": 2,
+                "rank_score": 0.02395359488546324
+            },
+            "interest": {
+                "count": 1,
+                "rank_score": 0.02393103262363554
+            },
+            "the crowd": {
+                "count": 1,
+                "rank_score": 0.02004173024358956
+            },
+            "trajectory privacy": {
+                "count": 1,
+                "rank_score": 0.016892915481877397
+            },
+            "ijcai": {
+                "count": 2,
+                "rank_score": 0.014636410327796678
+            },
+            "cikm": {
+                "count": 1,
+                "rank_score": 0.014636410327796678
+            },
+            "www": {
+                "count": 2,
+                "rank_score": 0.014636410327796678
+            },
+            "an overview": {
+                "count": 1,
+                "rank_score": 0.01352735649900325
+            },
+            "gis 22(1": {
+                "count": 1,
+                "rank_score": 0.013223865742852912
+            },
+            "ijcai (2017) goodfellow": {
+                "count": 1,
+                "rank_score": 0.010147076446456486
+            },
+            "2014": {
+                "count": 15,
+                "rank_score": 0.0
+            }
+        }
+    }
+]
